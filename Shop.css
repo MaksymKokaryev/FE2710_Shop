@@ -7,7 +7,7 @@ body {
     height: 100vh;
 
     font-family: 'Roboto', sans-serif;
-    
+
     background-image: url("images/patt.png");
 }
 
@@ -16,6 +16,7 @@ header {
     display: flex;
     background-color: rgba(202, 219, 237, 0.75);
     align-items: center;
+    border: 0.5px solid white;
 }
 
 .container {
@@ -204,3 +205,4 @@ input::placeholder {
     color: white;
     border-radius: 10px;
 }
+
