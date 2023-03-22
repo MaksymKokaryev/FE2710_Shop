@@ -16,7 +16,6 @@ header {
     display: flex;
     background-color: rgba(202, 219, 237, 0.75);
     align-items: center;
-    border: 0.5px solid white;
 }
 
 .container {
@@ -205,4 +204,18 @@ input::placeholder {
     color: white;
     border-radius: 10px;
 }
+main{
+    height: 85vh;
+   
 
+}
+.slider {
+    height: 15vh;
+    border: 0.3px solid white;
+    font-size: 48px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
