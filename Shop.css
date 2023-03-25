@@ -206,15 +206,15 @@ input::placeholder {
 }
 
 main {
-    height: 85vh;
+    height: 2740px;
 
 
 }
 
 .slider {
-    height: 395px;
+    height: 400px;
     border: 0.3px solid white;
-    font-size: 24px;
+    font-size: 72px;
     color: white;
     display: flex;
     align-items: center;
@@ -249,23 +249,28 @@ main {
 
 [class*="part-"] {
     display: flex;
-
+flex-direction: column;
     width: 100%;
-    border: 0.5px solid white;
+    padding: 25px;
+   
 }
 
 .part-1 {
-    height: 20%;
+    height: 22%;
 }
 
 .part-2 {
-    height: 40%;
+    height: 38%;
 }
 
 .part-3 {
-    height: 40%;
+    height: 42%;
 }
 
 .part-4 {
-    height: 20%;
+    height: 18%;
+}
+
+.devtypehead{
+
 }
