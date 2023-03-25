@@ -204,18 +204,68 @@ input::placeholder {
     color: white;
     border-radius: 10px;
 }
-main{
+
+main {
     height: 85vh;
-   
+
 
 }
+
 .slider {
-    height: 15vh;
+    height: 395px;
     border: 0.3px solid white;
-    font-size: 48px;
+    font-size: 24px;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
-    
+}
+
+.contmain {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    height: 2335px;
+}
+
+.devtype {
+    height: 35%;
+    border: 1px solid white;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.products {
+    border: 1px solid white;
+    width: 70%;
+    height: 90%;
+    display: flex;
+
+}
+
+[class*="part-"] {
+    display: flex;
+
+    width: 100%;
+    border: 0.5px solid white;
+}
+
+.part-1 {
+    height: 20%;
+}
+
+.part-2 {
+    height: 40%;
+}
+
+.part-3 {
+    height: 40%;
+}
+
+.part-4 {
+    height: 20%;
 }
