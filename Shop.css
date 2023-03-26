@@ -249,10 +249,10 @@ main {
 
 [class*="part-"] {
     display: flex;
-flex-direction: column;
+    flex-direction: column;
     width: 100%;
-    padding: 25px;
-   
+    padding: 15px;
+
 }
 
 .part-1 {
@@ -260,17 +260,31 @@ flex-direction: column;
 }
 
 .part-2 {
-    height: 38%;
+    height: 42%;
 }
 
 .part-3 {
-    height: 42%;
+    height: 38%;
 }
 
 .part-4 {
     height: 18%;
 }
 
-.devtypehead{
+.devtypehead {
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
 
+.devtypeform {
+    color: white;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.devtyperadio{
+   display: flex;
+   flex-direction: column;
 }
