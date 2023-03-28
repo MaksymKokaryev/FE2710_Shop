@@ -251,40 +251,41 @@ main {
     display: flex;
     flex-direction: column;
     width: 100%;
-    padding: 15px;
+    padding: 10px;
+    color: white;
+    font-size: 16px;
 
 }
 
 .part-1 {
     height: 22%;
+    padding: 15px;
+    
 }
+
+
 
 .part-2 {
     height: 42%;
+    padding: 15px;    
 }
 
 .part-3 {
     height: 38%;
+    padding: 15px;
 }
 
 .part-4 {
     height: 18%;
+    padding: 15px;
 }
-
-.devtypehead {
-    color: white;
-    font-size: 16px;
-    font-weight: bold;
+.devtypehead
+ {
+    height: 50px;
+     
 }
-
-.devtypeform {
-    color: white;
-    font-size: 16px;
-    display: flex;
-    flex-direction: column;
-    
-}
-.devtyperadio{
-   display: flex;
-   flex-direction: column;
+.devtyperadio
+ {
+    height: 50px;
+     
 }
