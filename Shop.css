@@ -234,14 +234,13 @@ main {
 .devtype {
     height: 35%;
     border: 1px solid white;
-    width: 30%;
+    width: 22%;
     display: flex;
     flex-direction: column;
 }
 
 .products {
-    border: 1px solid white;
-    width: 70%;
+    width: 78%;
     height: 90%;
     display: flex;
 
@@ -251,41 +250,43 @@ main {
     display: flex;
     flex-direction: column;
     width: 100%;
-    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
     color: white;
-    font-size: 16px;
+    font-size: 20px;
 
 }
 
 .part-1 {
-    height: 22%;
-    padding: 15px;
-    
+    height: 17%;
+    padding-top: 15px;
+    padding-bottom: 15px
 }
 
 
 
 .part-2 {
-    height: 42%;
-    padding: 15px;    
+    height: 33%;
+    padding-top: 15px;
+    padding-bottom: 15px
 }
 
 .part-3 {
-    height: 38%;
-    padding: 15px;
+    height: 33%;
 }
 
 .part-4 {
-    height: 18%;
+    height: 17%;
     padding: 15px;
 }
-.devtypehead
- {
-    height: 50px;
-     
+
+.devtypehead {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
 }
-.devtyperadio
- {
-    height: 50px;
-     
+
+.devtyperadio {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
