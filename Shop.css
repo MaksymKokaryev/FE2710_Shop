@@ -276,7 +276,10 @@ main {
     margin-bottom: 10px;
     font-weight: bold;
 }
+.part-4 .devtypehead{
+font-weight: normal;
 
+}
 .devtyperadio {
     margin-top: 10px;
     margin-bottom: 10px;
@@ -323,7 +326,27 @@ main {
 
 [class*="device-"] {
     display: flex;
+    flex-direction: column;
     height: 100%;
     width: 30%;
     border: 1px solid white;
+}
+.device-1 {
+
+
+
+}
+.devimage{
+    height: 28%;
+    width: 100%;
+
+}
+
+.devdescription{
+    height: 47%;
+    width: 100%;
+}
+.devdetailscart{
+    height: 25%;
+    width: 100%;
 }
