@@ -299,8 +299,25 @@ main {
 
 .prod-head {
     height: 6%;
+    width: 106%;
+}
+.headprodlinks{
+    width: 100%;
+    height: 50%;
 }
 
+.titlechoice{
+    width: 100%;
+    height: 50%;
+    }
+    .title{
+        width: 50%;
+        }
+
+        .choice{
+            width: 50%;
+            }
+   
 .prod-foot {
     height: 6%;
 }
@@ -335,8 +352,7 @@ main {
     display: flex;
     background-repeat: no-repeat;
     background-position: center;
-    position: relative;
-}
+   }
 
 .devimage-1 {
     background-image: url("images/Display.png");
