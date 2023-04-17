@@ -172,7 +172,6 @@ input::placeholder {
     margin-left: 10%;
     border: none;
     background-color: #ffffff;
-    position: relative;
     background-image: url("images/Cart.png");
     background-repeat: no-repeat;
     background-position: center;
@@ -216,7 +215,6 @@ main {
     margin-left: auto;
     margin-right: auto;
     padding: 15px;
-
 }
 
 .contmain {
@@ -276,10 +274,11 @@ main {
     margin-bottom: 10px;
     font-weight: bold;
 }
-.part-4 .devtypehead{
-font-weight: normal;
 
+.part-4 .devtypehead {
+    font-weight: normal;
 }
+
 .devtyperadio {
     margin-top: 10px;
     margin-bottom: 10px;
@@ -296,17 +295,14 @@ font-weight: normal;
 
 [class*="prod-"] {
     width: 100%;
-    
 }
 
 .prod-head {
     height: 6%;
-
 }
 
 .prod-foot {
     height: 6%;
-
 }
 
 .prod-catalog {
@@ -331,22 +327,59 @@ font-weight: normal;
     width: 30%;
     border: 1px solid white;
 }
-.device-1 {
 
-
-
-}
-.devimage{
+[class*="devimage-"] {
     height: 28%;
     width: 100%;
-
+    background-color: rgba(202, 219, 237, 0.75);
+    display: flex;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
 }
 
-.devdescription{
+.devimage-1 {
+    background-image: url("images/Display.png");
+}
+
+.devimage-2 {
+    background-image: url("images/icon\ \(9\).png");
+}
+
+.devimage-3 {
+    background-image: url("images/APPLE\ WATCH.png");
+}
+
+.devimage-4 {
+    background-image: url("images/Laptop.png");
+}
+
+.devimage-5 {
+    background-image: url("images/IPOD.png");
+}
+
+.devimage-6 {
+    background-image: url("images/iPhone.png");
+}
+
+.devimage-7 {
+    background-image: url("images/IPOD.png");
+}
+
+.devimage-8 {
+    background-image: url("images/icon\ \(9\).png");
+}
+
+.devimage-9 {
+    background-image: url("images/APPLE\ WATCH.png");
+}
+
+.devdescription {
     height: 47%;
     width: 100%;
 }
-.devdetailscart{
-    height: 25%;
+
+.devdetailscart {
+    height: 175px;
     width: 100%;
 }
